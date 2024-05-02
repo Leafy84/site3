@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(97, 97, 97);
+    margin: 0;
+    color: white;
+    width: 100%;
+    font-family: 'Calibri light', Times, serif;
+}
+
+p{
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+header{
+    background-color: #3f9b53;
+    color: white;
+    text-align: center;
+    padding: 6rem 0;
+    font-size: 2.5rem;
+    overflow: hidden;
+    font-family: 'Calibri light', Times, serif;
+}
+
+.header_gallery{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-menu{
+    width: 100%; 
+    height: 90px; margin-top: -30px; 
+    background-color: #2b6637; 
+    position: absolute; 
+    text-align: center;
+}
+
+nav{
+    margin-top: 25px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 20px;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #262c27;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #000000;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+.gallery{
+    overflow: hidden;
+    padding: 10rem 0;
+    text-align: center;
+}
+.gallery .img{
+    width: 100%;
+    max-width: 50rem;
+    height: 30rem;
+    display: inline-block;
+    overflow: hidden;
+    border: .1rem solid white;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.gallery .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.gallery .img img:hover{
+    transform: scale(1.2);
+}
+
+.biography{
+    overflow: hidden;
+    padding: 10rem 0;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 2.5rem;
+}
+
+
+.biography .bio-main-text{
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: justify;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resume-inform{
+    overflow: hidden;
+    padding: 10rem 0;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.resume-inform {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+
+.hobby{
+    overflow: hidden;
+    padding: 10rem 0;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.table {
+    font-size: 2.5rem;
+    margin: 20px auto;
+    text-align: center;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+    table-layout: fixed;
+}
+.table th {
+	padding: 5px;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+
+.resume-main {
+    margin: 20px 0;
+}
+
+
+
+@media (max-width: 630px) {
+    .nav-menu {
+        display: block;
+        height: 155px;
+    }
+    .nav-item {
+        display: block;
+    }
+    h1 {
+        width: auto;
+        font-size: 40px;
+    }
+    h2 {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .gallery .img {
+        height: 250px;
+        width: 375px;
+        margin: 16px 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .gallery .img {
+        height: 200px;
+        width: 300px;
+        margin: 10px 0;
+    }
+}
